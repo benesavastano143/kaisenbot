@@ -246,3 +246,4 @@ client.on('guildMemberAdd', member => {
  captcha.gen(member, "833068208368910336")
 })
 
+client.login(process.env.TOKEN');
